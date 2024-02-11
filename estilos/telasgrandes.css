@@ -1,0 +1,75 @@
+
+:root{
+    /*FONTES */
+    --titulos:"akira";
+    --corpo:"milk";
+
+    /*PALETA*/
+    --cor1:#262626;
+    --cor2:#404040;
+    --cor3:#8C8C8C;
+    --cor4:#BFBFBF;
+    --cor5:#F2F2F2;
+    --black:black;
+    --white:white;
+}
+
+
+.img{
+    height: 480px;
+    margin: 10px 0px 10px 10px ;
+}
+ 
+
+
+.container_telasgrandes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#cont1{
+    flex-direction: row;
+}
+#cont2{
+    flex-direction: row-reverse;
+    margin-right: 30px;
+}
+#cont3{
+    flex-direction: row;
+}
+#cont4{
+    flex-direction: row-reverse;
+    margin-right: 30px;
+}
+#cont5{
+    flex-direction: row;
+}
+.paragrafos{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 800px;
+  justify-content: space-evenly;
+  padding-top:20px ;
+}
+.paragrafos p{
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 20px;
+    display: block;
+    font-family: var(--corpo);
+
+}
+.passagem{
+    background-color: #2626269c;
+}
+#cont2,#cont4 p{
+    padding-left: 40px;
+}
+.principal{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    line-height: 30px;
+}

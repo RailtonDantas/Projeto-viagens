@@ -109,6 +109,7 @@ main{
     align-items: center;
     gap: 10px;
     padding-top: 10px;
+    padding-bottom:20px ;
     
 }
 .img{
@@ -132,25 +133,25 @@ main p{
     translate: 0px;
     width: 90%;
 }
-.img:nth-child(3){
+ .img1{
     background-image: url(../imagens/estatuadaliberdade-pequena.jpg);
     background-size: cover;
 }
-.img:nth-child(4){
+.img2{
     background-image: url(../imagens/veneza-pequena.jpg);
     background-size: cover;
 }
-.img:nth-child(5){
+.img3{
     background-image: url(../imagens/torre-pequena.jpg);
     background-size: cover;
     background-position: center center;
 }
-.img:nth-child(6){
+.img4{
     background-image: url(../imagens/kong-kong-pequena.jpg);
     background-size: cover;
     background-position: center bottom;
 }
-.img:nth-child(7){
+.img5{
     background-image: url(../imagens/moscow-pequena.jpg);
     background-size: cover;
     background-position: center center;
@@ -204,4 +205,28 @@ button:hover{
     color: var(--black);
     border: 1px solid black;
     scale: 1.03;
+}
+footer{
+    height: 100px;
+    background-color: var(--cor1);
+}
+footer p{
+    font-family: var(--corpo);
+    letter-spacing: 1px;
+    font-size: 0.6em;
+    text-align: center;
+    line-height: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.container_telasgrandes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.paragrafos{
+    display: none;
 }
