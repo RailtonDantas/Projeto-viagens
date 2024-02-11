@@ -1,0 +1,22 @@
+@charset "UTF-8";
+#menu1{
+    display: none;
+}
+header{
+    height: 250px;
+}
+menu{
+    display: block;
+}
+ul{
+    flex-direction: row;
+    height: auto;
+    width: 500px;
+}
+li{
+    font-size: 0.75em;
+    background-color: transparent;
+}
+main{
+    translate: 0px -90px;
+}
