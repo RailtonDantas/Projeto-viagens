@@ -1,12 +1,15 @@
 @charset "UTF-8";
+
 #menu1{
     display: none;
 }
 header{
     height: 250px;
+
 }
 menu{
     display: block;
+    height: auto;
 }
 ul{
     flex-direction: row;
@@ -18,5 +21,5 @@ li{
     background-color: transparent;
 }
 main{
-    translate: 0px -90px;
+    translate: 0px 0px;
 }
