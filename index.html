@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="estilos/telasgrandes.css" media="screen and (min-width:1330px)">
 </head>
 <body onresize="mudartamanho()" >
-    <header>
-        <h1>TrekTales</h1>
+    <header onresize="mudartamanhopraia()" >
+        <h1 id="headerh1">TrekTales</h1>
         <p>Eleita pela 10ª vez a melhor agência de viagens do Brasil!</p>
         <span id="menu1" class="material-symbols-outlined" onclick="abrir_menu()">menu</span>
     </header>
     <menu>
         <ul>
-            <li>Cidades</li>
-            <li>Praias</li>
-            <li>Hotéis</li>
+            <li onclick="window.location.reload()">Cidades</li>
+            <li onclick="praia()">Praias</li>
+            <li onclick="hoteis()">Hotéis</li>
             <li>Fale Conosco</li>
         </ul>
     </menu>
     <main>
         <h1>As melhores ofertas do Brasil!</h1>
-        <p>Viage para os melhores lugares do mundo por menos de 1000 reais!</p>
+        <p id="pmain">Viage para os melhores lugares do mundo por menos de 1000 reais!</p>
         <div class="container_telasgrandes" id="cont1">
             <div class="img img1">
                 <div class="identification">
