@@ -10,6 +10,7 @@ let identify = document.getElementsByClassName("identification")
 let paragrafos = document.getElementsByClassName("paragrafos")
 let pass = document.getElementsByClassName("passagem")
 let pmain = document.getElementById("pmain")
+let link = document.getElementById("faleconosco")
 
 
 // FIM
@@ -70,6 +71,8 @@ function praia(){
     li[1].style.color = "white"
     li[2].style.color = "black"
     li[3].style.color = "black"
+
+   link.style.color = "black"
     
     
     imagem[0].style.backgroundImage = "url(imagens/praiaimg1jpg.jpg)"
@@ -161,6 +164,9 @@ function hoteis(){
     li[1].style.color = "black"
     li[2].style.color = "white"
     li[3].style.color = "black"
+
+   link.style.color = "black"
+
 
     imagem[0].style.backgroundImage = "url(imagens/imghotel1.jpg)"
     imagem[0].style.backgroundPosition = "bottom center"
